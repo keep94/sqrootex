@@ -8,5 +8,7 @@ import (
 )
 
 func main() {
-	fmt.Printf("%.50g\n", sqroot.Sqrt(big.NewRat(3, 1)))
+	n := sqroot.Sqrt(big.NewRat(3, 1))
+	fmt.Printf("%.50g\n", n)
+	fmt.Println(n.Mantissa().FindFirst([]int{0, 5, 0, 8}))
 }
