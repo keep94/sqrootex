@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  run_suite:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        go-version: [ 1.17.x, 1.18.x, 1.19.x ]
+    name: Go ${{ matrix.go-version }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: ${{ matrix.go-version }}
+      - run: go mod download
+      - run: go install ./...
+      - run: go vet ./...
