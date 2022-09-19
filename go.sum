@@ -1,4 +1,8 @@
+github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/keep94/consume2 v0.4.0 h1:geXHPEPOXZ7Dq9BIyBf/XFIVLF+84Z7ILb/STzvRr7E=
 github.com/keep94/consume2 v0.4.0/go.mod h1:oI2GS5jRbaWtXBO3wLiqr+dHpNmEyOgAJd4C1Jxp9o0=
-github.com/keep94/sqroot v0.6.0 h1:CEkb935zMxuUMvstsl3drza9UqYAcBMiSSXRApf4CLQ=
-github.com/keep94/sqroot v0.6.0/go.mod h1:CRld7ybyZrsgwXKLtaw2FoH+cEx9o+WIiv4ofxN1+mA=
+github.com/keep94/sqroot v0.7.0 h1:sEtbHt/d75O2aNURsI/E2SZAutTuyxJgzE2j5Jiqpiw=
+github.com/keep94/sqroot v0.7.0/go.mod h1:CRld7ybyZrsgwXKLtaw2FoH+cEx9o+WIiv4ofxN1+mA=
+github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
+github.com/stretchr/testify v1.7.0 h1:nwc3DEeHmmLAfoZucVR881uASk0Mfjw8xYJ99tb5CcY=
+gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c h1:dUUwHk2QECo/6vqA44rthZ8ie2QXMNeKRTHCNY2nXvo=
